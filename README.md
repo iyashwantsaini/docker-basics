@@ -3,20 +3,25 @@
 
 # check version
 * sudo docker version 
+* docker --version
+
+# help
+* docker --help
 
 # check installation
-* sudo docker run docker/whalesay cowsay hello_world!
-
-# hello_world
 * sudo docker run hello-world
+* sudo docker run docker/whalesay cowsay hello_world!
 
 # start docker
 * sudo service docker start
 
+# pull from docker hub
+* docker pull <image_name>
+
 # see all images
 * sudo docker images
 
-# run image
+# run image -- creates a container from image
 * sudo docker run -it <image_name>
 
 # see running containers
